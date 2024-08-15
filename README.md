@@ -1,10 +1,15 @@
-This  Pwershell Script will save personal folders to a backup drive . Check for your current paths 
+This  Powershell Script will save personal folders to a backup drive . Make sure you update your actual source and destination paths 
+
+1.  Donwloading 
+Open powershell terminal window navigate to a work directory then run below to download 
+git clone  https://github.com/acotarlan/powershellpublic.git
+
+2. Set up Task Scheduler to run based on a schedule
 
 
 
 
 For Experts Use only: 
-
 
  Start coding with Codespaces
 
