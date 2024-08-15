@@ -17,10 +17,14 @@ Add a README file and start coding in a secure, configurable, and dedicated deve
 Add collaborators to this repository
 
 Search for people using their GitHub username or email address.
+
 Quick setup — if you’ve done this kind of thing before
+
 or
 
-Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+Get started by creating a new file or uploading an existing file. 
+
+We recommend every repository include a README, LICENSE, and .gitignore.
 …or create a new repository on the command line
 
 echo "# powershellpublic" >> README.md
