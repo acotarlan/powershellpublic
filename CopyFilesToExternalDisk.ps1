@@ -17,9 +17,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-
-
-
 #Set logging directory 
 $logPath = "C:\Automation\Logs"
 
@@ -55,18 +52,23 @@ $music_path = "C:\\Users\\$USERN\\Music"
 $videos_path = "C:\\Users\\$USERN\\Videos"
 $desktop_path = "C:\\Users\\$USERN\\Desktop"
 
-#Log the future actions
-"$(Get-Date) - Logging run for Copy-Item -Path  $documents_path -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
-"$(Get-Date) - Logging run for Copy-Item -Path  $pictures_path  -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
-"$(Get-Date) - Logging run for Copy-Item -Path  $downloads_path -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
-"$(Get-Date) - Logging run for Copy-Item -Path  $music_path     -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
-"$(Get-Date) - Logging run for Copy-Item -Path  $videos_path    -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
-"$(Get-Date) - Logging run for Copy-Item -Path  $desktop_path   -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
+#################################################  MAIN PROGRAM  #######################################################################
 
-#Uncomment from below lines to copy what you need
-#Copy-Item -Path  $documents_path -Destination $DESTFOLDER -Recurse 
-#Copy-Item -Path  $pictures_path  -Destination $DESTFOLDER -Recurse  
+#Uncomment to Log the future actions and to execute the action itself
+#"$(Get-Date) - Logging run for Copy-Item -Path  $documents_path -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
+#Copy-Item -Path  $documents_path -Destination $DESTFOLDER -Recurse
+
+#"$(Get-Date) - Logging run for Copy-Item -Path  $pictures_path  -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
+#Copy-Item -Path  $pictures_path  -Destination $DESTFOLDER -Recurse
+
+#"$(Get-Date) - Logging run for Copy-Item -Path  $downloads_path -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
 #Copy-Item -Path  $downloads_path -Destination $DESTFOLDER -Recurse
+
+#"$(Get-Date) - Logging run for Copy-Item -Path  $music_path     -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
 #Copy-Item -Path  $music_path     -Destination $DESTFOLDER -Recurse 
+
+#"$(Get-Date) - Logging run for Copy-Item -Path  $videos_path    -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
 #Copy-Item -Path  $videos_path    -Destination $DESTFOLDER -Recurse 
+
+#"$(Get-Date) - Logging run for Copy-Item -Path  $desktop_path   -Destination $DESTFOLDER -Recurse" | Out-File -FilePath $logFile -Append
 #Copy-Item -Path  $desktop_path   -Destination $DESTFOLDER -Recurse
