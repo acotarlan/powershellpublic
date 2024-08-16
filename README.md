@@ -10,7 +10,7 @@ This  Powershell Script will save personal folders to a backup drive . Make sure
 winget install --id Git. Git -e --source winget 
 
 
-2.  Donwloading this repository
+2.  Downloading this repository
 
 Open powershell terminal window navigate to a work directory then run below to download 
 
