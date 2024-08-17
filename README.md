@@ -17,3 +17,8 @@ Open powershell terminal window navigate to a work directory then run below to d
 git clone  https://github.com/acotarlan/powershellpublic.git
 
 3. Set up Task Scheduler to run the Powershell script (CopyFilesToExternalDisk.ps1)  based on a desired  schedule
+
+
+For setting the Powershell Execution Policy:
+
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4
