@@ -1,3 +1,7 @@
+
+
+CopyFilesToExternalDisk.ps1
+----------------------------
 This  Powershell Script will save personal folders to a backup drive . Make sure you update your actual source and destination paths 
 
 1. For setting the Powershell Execution Policy:
