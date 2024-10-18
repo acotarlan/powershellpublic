@@ -1,3 +1,9 @@
+Time-Command.ps1
+--------------------------
+This  Powershell Script will attempt to be a loose equivalent to time command in Unix. It will compute total execution time only.
+Usage example:
+./Time-Command.ps1 <command>
+
 
 
 CopyFilesToExternalDisk.ps1
